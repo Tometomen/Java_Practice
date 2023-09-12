@@ -1,4 +1,4 @@
-package Project.No401;
+package Project.No400.No401;
 
 public class Student extends Person{
     private int stuNo;
