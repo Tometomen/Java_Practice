@@ -1,0 +1,30 @@
+▶カプセル化
+
+・public    同クラス/同パッケージ/サブクラス/その他
+
+・protected 同クラス/同パッケージ/サブクラス
+
+・(無し)    同クラス/同パッケージ
+
+・private   同クラス
+
+⇒メンバ変数は隠蔽して(private)、
+   クラスとメソッドは公開(public)する設計をカプセル化
+
+   ⇒代入前処理
+
+class Student(){
+    private int score;
+
+    public void setScore(int s);
+
+    score = s;
+
+}
+
+class stuSample(){
+    :
+    :
+    stu.setScore(80);〇
+    stu.score = 80;×
+}
