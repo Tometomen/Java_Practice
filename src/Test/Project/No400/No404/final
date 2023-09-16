@@ -1,0 +1,22 @@
+▶finalキーワード
+
+・クラス、メンバ変数、メソッドに着けられる修飾子
+
+⇒クラス：継承できなくなる。
+final class Student{}
+
+    ⇒class DameStudent extends Student{}//// ✖
+
+⇒メンバ変数：代入ができなくなる
+             →定数を作れる。
+                ※定数はすべて大文字
+
+final int BASE_NO = 1;
+
+ ⇒BASE_NO = 2000;////✖
+
+⇒メソッド：オーバライドができなくなる。
+
+final void backup(){}
+
+ ⇒サブクラスで再定義✖
