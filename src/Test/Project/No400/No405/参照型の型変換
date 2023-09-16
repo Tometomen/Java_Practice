@@ -1,0 +1,15 @@
+▶参照型の型変換
+
+・継承関係にあるクラス同士でオブジェクトの型変換が。。。
+
+[“自動”で行われる    ：スーパー＝サブ
+
+[”キャスト”で明示する：サブ＝スーパー
+
+Student stu = new Student();
+Person psn = stu;
+Student stu2 =(Student)psn;//キャスト
+
+psn.display      →オーバライド有効
+psn.chgStuNo..() → コンパイルエラー
+stu2.chgStuNo()  →OK!
