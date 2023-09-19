@@ -10,6 +10,8 @@ public abstract class Club {
     public void display(){
         System.out.println("Name : " + name);
     }
+    //定義のみ
     public abstract void practice();
+
     
 }
