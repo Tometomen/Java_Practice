@@ -12,4 +12,4 @@ Student stu2 =(Student)psn;//キャスト
 
 psn.display      →オーバライド有効
 psn.chgStuNo..() → コンパイルエラー
-stu2.chgStuNo()  →OK!
+stu2.chgStuNo()  →OK!w
